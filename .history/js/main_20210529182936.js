@@ -252,7 +252,7 @@
 		let imgElem4;
 		for (let i = 0; i < sceneInfo[4].values.videoImageCount; i++) {
 			imgElem4 = new Image();
-			imgElem4.src = `video/editor/editor (${1 + i}).jpg`;
+			imgElem4.src = `video/editor/editor (${1 + i}).JPG`;
 			sceneInfo[4].objs.videoImages.push(imgElem4);
 		}
 
