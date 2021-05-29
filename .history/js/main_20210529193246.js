@@ -252,7 +252,7 @@
 		let imgElem4;
 		for (let i = 0; i < sceneInfo[4].values.videoImageCount; i++) {
 			imgElem4 = new Image();
-			imgElem4.src = `video/editor/editor (${1 + i}).JPG`;
+			imgElem4.src = `video/editor/editor (${1 + i}).jpg`;
 			sceneInfo[4].objs.videoImages.push(imgElem4);
 		}
 
@@ -678,7 +678,7 @@
 	}
 
 	window.addEventListener('load', () => {
-		setLayout(); // 중간에 새로고침 시, 콘텐츠 양에 따라 높이 계산에 오차가 발생하는 경우를 방지하기 위해 before-load 클래스 제거 전에도 확실하게 높이를 세팅하도록 한번 더 실행
+		setLayout(); 
         document.body.classList.remove('before-load');
         setLayout();
         // sceneInfo[0].objs.context.drawImage(sceneInfo[0].objs.videoImages[0], 0, 0);

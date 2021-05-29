@@ -681,7 +681,7 @@
 		setLayout(); 
         document.body.classList.remove('before-load');
         setLayout();
-        sceneInfo[0].objs.context.drawImage(sceneInfo[0].objs.videoImages[0], 0, 0);
+        // sceneInfo[0].objs.context.drawImage(sceneInfo[0].objs.videoImages[0], 0, 0);
 
 		// 중간에서 새로고침 했을 경우 자동 스크롤로 제대로 그려주기
         let tempYOffset = yOffset;
